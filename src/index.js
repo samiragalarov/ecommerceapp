@@ -2,19 +2,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './quizgame'
-//import Example from "./counter "
-//import App from './flashcard'
-//import App from './reportWebVitals'
-//import App from './setupTests'
-//import App from "./yeni"
-//import App from './Appy'
-//import App from './memory';
-//import App from './counter '
-//import App from "./website"
-//import App from './memory';
+
 import App from './ecommerceapp/app'
-//import App from './portfoliowebsite/app'
+
 
 
 
