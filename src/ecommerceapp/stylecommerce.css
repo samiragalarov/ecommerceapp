@@ -1,0 +1,412 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: 	#ff9900;
+    width: 100%;
+    height: 850px;
+    flex-direction: column;
+} .container .navbar{
+    width: 100%;
+    height: 8%;
+    background-color:	#ff9900;
+    display: flex;
+     
+    align-items: center;
+    justify-content: center;
+   
+} 
+.container .navbar .filter{
+    width: 70%;
+    height: 100%;
+    background-color: 	#ff9900;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.container .navbar .filter  .filteritem{
+    width: 11%;
+    height: 50%;
+    background-color: white;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(13, 13, 14, 0.2) 0px 8px 24px;
+}
+.container .navbar .shop{
+    width: 30%;
+    height: 100%;
+    background-color: 	#ff9900;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.container .main{
+    width: 100%;
+    height: 92%;
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .main .cardcontainer{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container .main .cardcontainer .box{
+    width: 33.3%;
+    height: 50.3%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  
+}
+.container .main .cardcontainer .box .sebet{
+    width: 230px;
+    height: 50px;
+    background-color:#146eb4;
+    cursor: pointer;
+
+}
+.container .main .cardcontainer .box .sebet:hover{
+    background-color:rgb(109, 80, 6) ;
+
+}
+.cardbox{
+    width: 230px;
+    height: 250px;
+    background-color: white;
+    border-radius: 6px 6px 0px 0px;
+    padding: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    
+    flex-direction: column;
+}
+.cardbox .cardimg{
+
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    /* padding: 20px; */
+
+
+}
+.prodoctname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.cardbox .cardimg img{
+    background-repeat: no-repeat;
+    
+         width: 86%;
+        height: 100%; 
+
+    
+}
+.cardbox .cardtext{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+/* page 2 container */
+
+
+.page2container{
+    width: 100%;
+    height: 830px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.page2container .page2nav{
+    width: 100%;
+    height: 9%;
+   background-color: 	#ff9900;
+}
+.page2container .carditems{
+    width: 50%;
+    height: 95%;
+    /* background-color: darkgoldenrod; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.page2container .carditems .carditem{
+    width: 90%;
+    height: 19%;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    background-color: white;
+
+}
+.page2container .carditems .carditem .carditemimg{
+    background-color: white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page2container .carditems .carditem .carditemimg img{
+    width: 100%;
+    height: 100%;
+}
+.page2container .carditems .carditem .carditemtext{
+    background-color: white;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.melumat{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    
+    
+}
+.carditemtextbutton{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.carditemtextbutton h2{
+    width: 50%;
+    height: 40%;
+    background-color:  		#146eb4;
+    border: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.tut{
+    width: 100%;
+    height: 91%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.melumat h2{
+    margin-left: 10px;
+    
+
+}
+.payment{
+    width: 50%;
+    height: 95%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.payment .paymentbox{
+    width: 60%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+
+
+}
+.payment .paymentbox .paymentprice{
+    width: 100%;
+    height: 20%;
+    background-color: 	#ff9900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payment .paymentbox  .paymentbutton{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payment .paymentbox  .paymentbutton .paymentbuttonitem{
+    width:28%;
+    height:18%;
+    background-color: 	#146eb4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+
+}
+.payment .paymentbox  .paymentbutton .clearitems{
+    width: 28%;
+    height: 18%;
+    background-color:#232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.payment .paymentbox  .paymentbutton .clearitems h3{
+    color: white;
+}
+/* modal */
+
+.modalcontainer{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    top: 160px;
+    right: 380px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+  
+
+}
+.modalheader{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 2px solid #146eb4;
+}
+.modalbox{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalheader h1{
+    margin-right: 17px;
+    cursor: pointer;
+    
+}
+
+
+/* validitaion */
+.Validbox{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.validpart1{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.validpart1 input{
+    width: 90%;
+    height: 52%;
+    margin-top: 9px;
+}
+.validpart2{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+   
+
+}
+.validpart2 .input1{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    margin-top: 10px;
+}
+.validpart2 .input1 input{
+    margin-right: 8px;
+    width: 82.44%;
+    height: 18%;
+
+}
+.validpart2 .input2{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    margin-top: 10px;
+}
+.validpart2 .input2 input{
+    margin-right: 8px;
+    width: 80%;
+    height: 18%;
+
+}
+
+    

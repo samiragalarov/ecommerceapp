@@ -1,0 +1,124 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+.container{
+   width: 100%;
+   height: 820px;
+   background-color: cadetblue;
+   display: flex;
+   align-items: center ;
+   justify-content: center;
+   flex-direction: column;
+
+
+
+}
+.filter{
+   width: 80%;
+   height: 100px;
+   background-color: white;
+   margin-top: 90px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   border: 5px black;
+   border-radius: 5px 5px 0px 0px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   
+}
+.filter .filters{
+   width: 100%;
+   display: flex;
+  
+   
+   
+   justify-content: center;
+   align-items: center;
+  
+ 
+}
+.filter .item1{
+   
+   width: 20%;
+   height: 80%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.filter .item1:hover{
+   cursor: pointer;
+
+}
+
+.galery{
+   width: 80%;
+   height: 550px;
+   background-color: white;
+   margin-bottom: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+
+   justify-content: space-around;
+   border: 5px black;
+   border-radius: 0px 0px 5px 5px;
+   box-shadow: 5px 5px 5px ;
+
+}
+.galery .item{
+   width: 20%;
+   height: 40%;
+   background-color:transparent;
+   border: 2px solid white;
+ 
+   
+
+   
+   
+   margin-left: 28px;
+}
+.galery .item img{
+   width: 100%;
+   height: 100% ;
+   border-radius: 30px;
+  
+    
+}
+.galery .item img:hover{
+   border-color:  cadetblue;
+   border-radius: 30px;
+   box-shadow: rgba(58, 114, 131, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+
+   cursor: pointer;
+
+}
+.filter .line{
+  
+
+   margin-top: 20px;
+   position: relative;
+   
+   
+  
+   width: 100%;
+  
+   
+}
+.filter .line .mainline{
+   background-color: cadetblue;
+   width: 9%;
+   height: 10px;
+   position: absolute;
+   left: 15%;
+   border-radius: 3px;
+ 
+  
+   
+  
+   
+}

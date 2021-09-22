@@ -1,0 +1,23 @@
+{
+    "data":[
+        {
+            "questino":"apple nedir",
+            "choice": ["armud","alma","banan"],
+            "answer": "alma"
+        },
+        {
+            "questino":"hello",
+            "choice": ["sagaol","salam","necesen"],
+            "answer": "salam"
+        },
+        {
+            "questino":"car",
+            "choice": ["almaz","ev","masin"],
+            "answer": "masin"
+        }
+
+
+
+
+    ]
+}
